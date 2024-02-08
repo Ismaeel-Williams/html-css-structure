@@ -10,6 +10,16 @@
   padding: 15px;
 }
 
-.child-box {
+.box1-child {
   width: 50%;
+}
+
+.box2 {
+  background-color: #00ffff;
+  padding: 20px;
+}
+
+.box2-child {
+  background-color: #373747;
+  padding: 100px;
 }
