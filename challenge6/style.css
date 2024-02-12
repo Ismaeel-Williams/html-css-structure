@@ -36,7 +36,7 @@ h1 {
 
 .nav__list {
   display: flex;
-  column-gap: 20px;
+  column-gap: 50px;
   font-size: larger;
 }
 
