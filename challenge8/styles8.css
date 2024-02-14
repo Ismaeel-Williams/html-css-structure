@@ -41,7 +41,7 @@ button {
 }
 
 p {
-  word-spacing: 8px;
+  word-spacing: 6px;
 }
 img {
   width: 100%;
@@ -50,7 +50,6 @@ img {
 
 /* ClASSES */
 .container {
-  display: flex;
   margin: 0 auto;
   max-width: 1200px;
 }
@@ -64,13 +63,7 @@ img {
   padding: 30px 0;
 }
 
-/* .nav-logo {
-  flex-basis: 50%;
-} */
-
 .nav-ul {
-  /* flex-basis: 50%; */
-  display: flex;
   align-items: center;
 }
 
@@ -95,7 +88,6 @@ img {
 
 .box-p {
   font-family: "Montserrat", sans-serif;
-  display: flex;
   align-items: center;
 }
 .landing-btn {
@@ -114,7 +106,6 @@ img {
 }
 
 .landing-info {
-  display: flex;
   gap: 7%;
   text-align: center;
 }
@@ -135,16 +126,13 @@ img {
   font-weight: 400;
 }
 
-box-40 {
-  flex-basis: 40%;
-}
 box-60 {
   flex-basis: 60%;
 }
 
 .card-container {
+  min-width: 30%;
   row-gap: 20px;
-  display: flex;
   flex-direction: column;
 }
 
@@ -153,7 +141,6 @@ box-60 {
   text-align: center;
   padding: 40px 0;
   color: white;
-  display: flex;
   justify-content: center;
 }
 
@@ -170,4 +157,28 @@ box-60 {
 
 .card-info {
   width: 80%;
+}
+
+.box-80 {
+  flex-basis: 80%;
+}
+
+.flex {
+  display: flex;
+}
+
+.hero-header h3 {
+  color: var(--gold);
+  font-family: "Oswald", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.hero-box {
+  font-family: "Montserrat", sans-serif;
+  font-size: 21px;
+}
+
+.hero-img {
+  margin: 50px 0;
 }
