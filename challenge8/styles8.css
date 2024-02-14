@@ -12,6 +12,11 @@
 h1 {
   font-family: "Oswald", sans-serif;
   font-size: 90px;
+  font-weight: 600;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
 }
 
 :root {
@@ -20,6 +25,7 @@ h1 {
   --grey: #6f737f;
   --white: #ffffff;
   --gold: #a59678;
+  --light-grey: #f1f1f1;
 }
 
 ul {
@@ -48,7 +54,7 @@ p {
 .nav-section {
   font-family: "Oswald", sans-serif;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 18px;
   color: var(--grey);
   background-color: var(--black);
   padding: 30px 0;
@@ -80,6 +86,7 @@ p {
 
 .big-p {
   font-size: 24px;
+  font-weight: 400;
 }
 
 .box-p {
@@ -89,11 +96,37 @@ p {
 }
 .landing-btn {
   padding: 20px 30px;
-  font-size: 30px;
+  font-size: 24px;
   margin-top: 20px;
   font-weight: 600;
 }
 
 .gold-text {
   color: var(--gold);
+}
+
+.box-30 {
+  flex-basis: 30%;
+}
+
+.landing-info {
+  display: flex;
+  gap: 7%;
+  text-align: center;
+}
+
+.box-30 h3 {
+  color: var(--gold);
+  font-size: 30px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.landing-section {
+  font-size: 18px;
+  background-color: var(--light-grey);
+  padding: 80px 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
