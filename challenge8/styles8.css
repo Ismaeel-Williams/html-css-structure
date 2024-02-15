@@ -11,13 +11,20 @@
 }
 
 h1 {
-  font-family: "Oswald", sans-serif;
   font-size: 90px;
-  font-weight: 600;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
 }
 
 h3 {
-  font-family: "Montserrat", sans-serif;
   font-size: 24px;
 }
 
@@ -44,6 +51,7 @@ button {
 
 p {
   word-spacing: 6px;
+  font-family: "Montserrat", sans-serif;
 }
 
 img {
@@ -83,8 +91,6 @@ img {
 }
 
 .nav-section {
-  font-family: "Oswald", sans-serif;
-  font-weight: 600;
   font-size: 18px;
   color: var(--grey);
   background-color: var(--black);
@@ -111,7 +117,6 @@ img {
 }
 
 .box-p {
-  font-family: "Montserrat", sans-serif;
   align-items: center;
 }
 
@@ -134,8 +139,6 @@ img {
 .box-30 h3 {
   color: var(--gold);
   font-size: 30px;
-  font-family: "Oswald", sans-serif;
-  font-weight: 600;
   margin-bottom: 15px;
 }
 
@@ -143,8 +146,6 @@ img {
   font-size: 18px;
   background-color: var(--light-grey);
   padding: 80px 0;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
 }
 
 .card-container {
@@ -162,9 +163,7 @@ img {
 }
 
 .card h4 {
-  font-family: "Oswald", sans-serif;
   font-size: 30px;
-  font-weight: 600;
   margin-bottom: 20px;
 }
 
@@ -182,13 +181,10 @@ img {
 
 .hero-header h3 {
   color: var(--gold);
-  font-family: "Oswald", sans-serif;
   font-size: 36px;
-  font-weight: 600;
   margin-bottom: 20px;
 }
 .hero-box {
-  font-family: "Montserrat", sans-serif;
   font-size: 21px;
 }
 
@@ -202,17 +198,13 @@ img {
 }
 
 .footer .container div h2 {
-  font-family: "Oswald", sans-serif;
   font-size: 36px;
-  font-weight: 600;
   color: var(--white);
   text-align: center;
   margin-bottom: 50px;
 }
 
 .footer-info h5 {
-  font-family: "Oswald", sans-serif;
-  font-weight: 600;
   font-size: 21px;
   color: var(--gold);
   margin-bottom: 25px;
@@ -220,7 +212,6 @@ img {
 
 .footer-info .box-40 p {
   width: 80%;
-  font-family: "Montserrat", sans-serif;
   font-size: 16px;
 }
 
@@ -233,7 +224,6 @@ img {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  font-family: "Montserrat", sans-serif;
   font-size: 16px;
 }
 
@@ -247,6 +237,9 @@ img {
   }
   .margin-bottom {
     margin-bottom: 20px;
+  }
+  .card {
+    padding: 20px 0;
   }
   .card-info {
     width: 90%;
@@ -284,5 +277,14 @@ img {
   .card {
     column-gap: 20px;
     margin: 10px;
+    padding: 20px 0;
+  }
+  .hero-section {
+    padding: 0;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .card-info {
+    width: 90%;
   }
 }
