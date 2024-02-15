@@ -264,3 +264,25 @@ img {
     margin: 0 auto;
   }
 }
+
+@media (max-width: 1000px) and (min-width: 701px) {
+  * {
+    text-align: center;
+  }
+  .hero-box {
+    flex-basis: 100%;
+  }
+  .hero-1000 {
+    flex-direction: row;
+  }
+  .block {
+    display: block;
+  }
+  .footer-info .box-40 p {
+    width: 100%;
+  }
+  .card {
+    column-gap: 20px;
+    margin: 10px;
+  }
+}
